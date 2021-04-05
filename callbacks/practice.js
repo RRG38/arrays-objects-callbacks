@@ -95,6 +95,21 @@ multiply(4, 3, function(answer){
 */
 
 //Code Here 
+// function contains([], name, result) {
+//   if (result([name] === true)) {
+//     return true
+//   } else {
+//     return false
+//   }
+// }s
+
+function contains(names, name, result) {
+  if (names.includes(name)) {
+    result === true
+  } else {
+    result === false
+  }
+}
 
 // Do not edit the code below.
 contains(names, 'Colt', function(result){
@@ -116,6 +131,10 @@ contains(names, 'Colt', function(result){
 */
 
 //Code Here
+function uniq([], callback) {
+
+  callback()
+}
 
 // Do not edit the code below.
 uniq(names, function(uniqArr){
@@ -133,6 +152,9 @@ uniq(names, function(uniqArr){
 */
 
 //Code Here 
+function each([], callback) {
+
+}
 
 // Do not edit the code below.
 each(names, function(item, indice){
@@ -150,6 +172,9 @@ each(names, function(item, indice){
 */
 
 // Code here
+function getUserById(users, id, callback) {
+  
+}
 
 // Do not edit the code below.
 var users = [
